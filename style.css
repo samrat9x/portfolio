@@ -100,6 +100,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  /* min-height: 100vh; */
 }
 .intro-area .myphoto {
   border: 1px solid var(--lightGreen);
@@ -157,7 +158,7 @@ main {
   height: 87%;
   width: 3px;
   border-radius: 5px;
-  background-color: var(--lightGreen);
+  background-color: var(--white);
 }
 
 .intro-area .container .intro-text p {
@@ -336,6 +337,7 @@ main {
 
   .intro-area .action{
     justify-content: center;
+    font-size: 1rem;
   }
 
   .intro-area .container .intro-text p{
@@ -345,6 +347,10 @@ main {
   .intro-area .container{
     width: 65%;
     margin: 0 auto;
+  }
+
+  .intro ul li{
+    font-size: 13px;
   }
 
 }
