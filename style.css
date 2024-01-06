@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 
 :root {
   --darkBlue: #111a28;
@@ -16,7 +16,7 @@
 body {
   background: var(--darkBlue);
   color: var(--white);
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 header {
@@ -172,57 +172,56 @@ main {
   margin-bottom: 25px;
 }
 
-.intro-area .intro-text h3{
+.intro-area .intro-text h3 {
   font-size: 1.38316rem;
   color: var(--lightGreen);
   font-weight: 700;
 }
 
-.intro-text ul{
+.intro-text ul {
   display: flex;
   margin-bottom: 25px;
   list-style: none;
   justify-content: center;
 }
 
-.intro-text ul li{
+.intro-text ul li {
   margin-right: 25px;
   position: relative;
 }
 
-.intro-text ul li::before{
- position: absolute;
- content: '';
- top: 6px;
- left: -17px;
- height: 9px;
- width: 9px;
- background-color: var(--lightGreen);
- border-radius: 50%;
+.intro-text ul li::before {
+  position: absolute;
+  content: "";
+  top: 6px;
+  left: -17px;
+  height: 9px;
+  width: 9px;
+  background-color: var(--lightGreen);
+  border-radius: 50%;
 }
 
-.intro-text ul .li1::before{
+.intro-text ul .li1::before {
   background-color: var(--darkBlue);
-
 }
-.intro-area .action{
+.intro-area .action {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
 }
 
-.intro-area .action a{
+.intro-area .action a {
   font-size: 1.2rem;
   border: 2px solid var(--lightGreen);
   border-radius: 5px;
   text-decoration: none;
   padding: 15px 25px;
   background-color: var(--lightGreen);
-  color: var(--white)
+  color: var(--white);
 }
 
-.intro-area .action .a2{
+.intro-area .action .a2 {
   background: transparent;
 }
 /* Responsive Section*/
@@ -295,28 +294,27 @@ main {
     text-align: center;
   }
 
-  .intro-area .myphoto img{
+  .intro-area .myphoto img {
     width: 180px;
   }
 
-  .intro-area{
+  .intro-area {
     flex-direction: column-reverse;
   }
 
-
-  .intro-area .follow-me ul{
+  .intro-area .follow-me ul {
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
   }
 
-  .intro-area .follow-me{
+  .intro-area .follow-me {
     margin: 30px 0;
-    flex-direction: column-reverse ;
+    flex-direction: column-reverse;
     top: 0;
   }
 
-  .intro-area .follow-me ul li{
+  .intro-area .follow-me ul li {
     padding: 10px;
     margin: 0 15px;
     font-size: 20px;
@@ -325,29 +323,34 @@ main {
   .intro-area .follow-me p {
     transform: translateX(0px);
     rotate: 0deg;
+    margin-bottom: 16px;
   }
 
   .intro-area .follow-me::after {
     top: 12px;
     width: 87%;
-    height  : 3px;
+    height: 3px;
     border-radius: 5px;
     background-color: var(--white);
   }
 
-  .intro-area .action{
+  .intro-area .action {
     justify-content: center;
     font-size: 1rem;
   }
 
-  .intro-area .container .intro-text p{
+  .intro-area .container .intro-text p {
     margin-top: 40px;
   }
 
-  .intro ul li{
+  .intro ul {
     font-size: 13px;
+    padding-left: 23px;
   }
 
+  .intro-area .intro-text h1 {
+    font-size: 68px;
+}
 }
 
 @media only screen and (max-width: 481px) {
