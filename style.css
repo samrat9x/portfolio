@@ -327,9 +327,9 @@ main {
   }
 
   .intro-area .follow-me::after {
-    top: 12px;
+    top: 13.5px;
     width: 87%;
-    height: 3px;
+    height: 2px;
     border-radius: 5px;
     background-color: var(--white);
   }
