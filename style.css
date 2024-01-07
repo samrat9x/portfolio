@@ -339,6 +339,11 @@ main {
     font-size: 1rem;
   }
 
+  .intro-area .action a {
+    font-size: 1rem;
+    padding: 10px 23px;
+  }
+
   .intro-area .container .intro-text p {
     margin-top: 40px;
   }
@@ -350,7 +355,7 @@ main {
 
   .intro-area .intro-text h1 {
     font-size: 68px;
-}
+  }
 }
 
 @media only screen and (max-width: 481px) {
