@@ -139,6 +139,13 @@ main {
   color: var(--white);
   text-decoration: none;
 }
+.intro-area .follow-me ul li i {
+  transition: all 0.5s;
+}
+.intro-area .follow-me ul li:hover i {
+  color: var(--lightGreen);
+  transform: scale(1.3);
+}
 
 .intro-area .follow-me p {
   text-transform: uppercase;
@@ -219,8 +226,14 @@ main {
   padding: 15px 25px;
   background-color: var(--lightGreen);
   color: var(--white);
+  transition: all 1s;
 }
-
+.intro-area .action .a1:hover {
+  background-color: var(--matooBlack);
+}
+.intro-area .action .a2:hover {
+  background-color: var(--matooBlack);
+}
 .intro-area .action .a2 {
   background: transparent;
 }
