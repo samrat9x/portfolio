@@ -51,5 +51,4 @@ window.addEventListener("scroll", function () {
         header.style.background = "#1d293a";
     }
 });
-
-console.log("Hello Ki Obostha?");
+console.log("give me some sunshine");
