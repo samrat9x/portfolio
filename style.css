@@ -187,8 +187,8 @@ main {
 }
 
 .intro-area .intro-text h1 {
-    font-size: 78px;
-    font-weight: 900;
+    font-size: 4rem;
+    /*    font-weight: 900;*/
     margin-bottom: 25px;
 }
 
