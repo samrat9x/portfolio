@@ -202,7 +202,6 @@ main {
     display: flex;
     margin-bottom: 25px;
     list-style: none;
-    justify-content: center;
 }
 
 .intro-text ul li {
@@ -386,6 +385,10 @@ main {
     .intro ul {
         font-size: 13px;
         padding-left: 23px;
+    }
+
+    .intro-text ul {
+        justify-content: center;
     }
 
     .intro-area .intro-text h1 {
