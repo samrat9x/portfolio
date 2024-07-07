@@ -358,6 +358,7 @@ main {
         transform: translateX(0px);
         rotate: 0deg;
         margin-bottom: 16px;
+        min-width: max-content;
     }
 
     .intro-area .follow-me::after {
