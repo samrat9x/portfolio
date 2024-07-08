@@ -1,3 +1,10 @@
+// prelaoder
+let preloader = document.getElementById("loading");
+
+function pageLoading() {
+    preloader.style.display = "none";
+}
+
 // Declarations
 const mobileNav = document.querySelector(".mobile-nav");
 const menuBar = document.querySelector(".menubar");
@@ -10,7 +17,6 @@ mobileNav.addEventListener("click", function () {
         menuBar.style.display = "none";
     }
 });
-
 
 window.onresize = function () {
     if (window.innerWidth > 768) {
