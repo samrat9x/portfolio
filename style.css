@@ -201,7 +201,7 @@ main {
   position: absolute;
   z-index: -1;
   content: "";
-  top: 160px;
+  top: 120px;
   height: 87%;
   width: 3px;
   border-radius: 5px;
